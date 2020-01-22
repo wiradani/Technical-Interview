@@ -8,17 +8,24 @@
       <?php
 
     require "problem.php";
-         
-    $sum = "";
 
-         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $arr = $_POST["array"];
-           
+       
+
+         
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $arr = $_POST["input"];
             
+
             $problem2 = new Problem;
             $problem2->set_name('New Problem 2');
-            $solution = $problem3->sumOfPowerDigit($n,$x);
-         }
+            $problem2->set_input($arr);
+           $solution = $problem2->findCrashPlace($problem2->get_input());
+            
+            
+        }
+        
+        
+
          
         
       ?>
@@ -26,11 +33,11 @@
     <h3>Problem 2</h2>
       
       
-      <form method = "post" action = "view_problem3.php">
+      <form method = "post" action = "view_problem2.php">
          <table>
             <tr>
                <td>array value:</td> 
-               <td><input type = "text" name = "array"></td>
+               <td><input type = "text" name = "input"></td>
             </tr>
              
             <tr>
@@ -43,8 +50,7 @@
       
       <?php
          echo "<h2>Output :</h2>";
-         
-         echo $sum;
+         echo $solution; 
          echo "<br>";
          
         
