@@ -7,7 +7,7 @@
    <body>
       <?php
 
-    require "problem3.php";
+    require "problem.php";
          
     $sum = "";
 
@@ -15,7 +15,7 @@
             $n = $_POST["n"];
             $x = $_POST["x"];
             
-            $problem3 = new Problem3;
+            $problem3 = new Problem;
             $problem3->set_name('New Problem 3');
             $sum = $problem3->sumOfPowerDigit($n,$x);
          }

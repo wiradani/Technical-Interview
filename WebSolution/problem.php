@@ -13,6 +13,26 @@
     return $this->name;
   }
   
+  public function sumOfPowerDigit($n,$x) {
+        
+    $sum = 0;
+
+    $count = (int)pow($n, $x);
+
+    while ($count != 0) { 
+        $d = $count % 10; 
+        $sum += $d; 
+        $count /= 10; 
+    } 
+
+    return $sum; 
+
+    }
+
+    public function findCrashPlace(){
+
+        
+    }
 }
 
 
