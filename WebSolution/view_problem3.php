@@ -18,6 +18,7 @@
             $problem3 = new Problem;
             $problem3->set_name('New Problem 3');
             $sum = $problem3->sumOfPowerDigit($n,$x);
+            
          }
          
         
