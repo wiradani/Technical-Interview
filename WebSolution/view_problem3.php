@@ -25,6 +25,15 @@
     <h2>Technical Interview - Solution</h1>
     <h3>Problem 3</h2>
       
+      <p>
+      Buatlah sebuah function sumOfPowerDigit yang terdiri dari 2 buah parameter, n dan x. n>0 dan x >0, n,x = integer. 
+      Fungsi ini akan menjumlahkan masing-masing digit hasil pangkat bilangan n sesuai dengan nilai variabel x yang dimasukkan ke dalam function tersebut.
+      </p>
+
+      <p>contoh 1: </p>
+      <p>n = 2, x = 20 </p>
+      <p>Output: 31 (2^20 = 1.048.576 = (1+0+4+8+5+7+6) = 31)</p>
+
       
       <form method = "post" action = "view_problem3.php">
          <table>

@@ -25,16 +25,19 @@
   public function sumOfPowerDigit($n,$x) {
         
     $sum = 0;
+    
 
     $count = (int)pow($n, $x);
-
+    $val = $count;
+    
     while ($count != 0) { 
         $d = $count % 10; 
         $sum += $d; 
         $count /= 10; 
     } 
-
-    return $sum; 
+    
+    $mystring = $sum.'    '.'('.$n.'^'.$x.'='.$val.'='.$sum.')';
+    return $mystring; 
 
     }
 
