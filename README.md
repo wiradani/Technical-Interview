@@ -25,7 +25,7 @@ C:\xampp\htdocs (example)
 ```
 
 - Jalankan server (XAMPP/LAMP)
-- Akses kedalam web dengan membuka locallhost
+- Akses kedalam web dengan membuka link berikut dalam web browser
 
 ```
 http://localhost/Technical-Interview/WebSolution/index.php
