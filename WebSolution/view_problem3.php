@@ -18,11 +18,12 @@
             $problem3 = new Problem;
             $problem3->set_name('New Problem 3');
             $sum = $problem3->sumOfPowerDigit($n,$x);
-            
+
          }
          
         
       ?>
+      <a href="index.php">Back to index</a>
     <h2>Technical Interview - Solution</h1>
     <h3>Problem 3</h2>
       

@@ -29,8 +29,8 @@
                  array(4, 5, 6, 7, 8, 1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,0 ,1 ,2 ,3), 
                  array(4, 5, 6, 7, 8, 1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,0 ,1 ,2 ,3));
 
-     
-                 
+              
+               
     $problem1 = new Problem;
     $problem1->set_name('New Problem 1');
     $solution = $problem1->findGreatestProduct($arr);
@@ -38,6 +38,7 @@
          
         
       ?>
+      <a href="index.php">Back to index</a>
     <h2>Technical Interview - Solution</h1>
     <h3>Problem 1</h2>
     <p>

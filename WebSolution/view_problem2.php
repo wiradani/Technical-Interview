@@ -29,6 +29,7 @@
          
         
       ?>
+      <a href="index.php">Back to index</a>
     <h2>Technical Interview - Solution</h1>
     <h3>Problem 2</h2>
 
