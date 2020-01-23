@@ -38,8 +38,13 @@
       ?>
     <h2>Technical Interview - Solution</h1>
     <h3>Problem 1</h2>
+    <p>
+    Terdapat sebuah perkalian terbesar diantara 4 elemen matriks yang berurutan (ke atas, ke bawah, ke kanan, ke kiri, atau secara diagonal). 
+    Input matrix sebagai berikut:
+   </p>
       
-      
+   <img src="src/prob1Input.png">
+
       <?php
          echo "<h2>Output :</h2>";
          
